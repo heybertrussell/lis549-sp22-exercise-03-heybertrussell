@@ -6,17 +6,17 @@ h1 {
 table {
     width: 50%;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    border-collapse: collapse; }
 
 thead {
     height: 2rem;
     text-align: left;
     color: #1db954;
-    background-color: #d3d3d3; 
-    border-collapse: collapse; }
+    background-color: #d3d3d3; }
 
 th, td {
-    padding: .5em;
+    padding: .5em; 
     border-bottom: 1px solid #d3d3d3 }
 
 tr:nth-of-type(even) {
