@@ -1,18 +1,41 @@
 
+/* 1 */
+circle {
+    fill: #5f5f5f; }
 
-circle {fill: #5f5f5f;}
+/* 2 */
+path {
+    stroke: #5f5f5f; 
+    stroke-width: 8px; }
 
-path {stroke: #5f5f5f; stroke-width: 8px;}
+/* 3 */
+.small {
+    fill: white; }
 
-.small {fill: white;}
+/* 4 */
+.contained .small {
+    fill: #573d29; }
 
-.contained .small {fill: #573d29;}
+/* 5 */
+.contained circle,#rect {
+    fill: #c0c0c0; 
+    stroke: none; 
+    opacity: 1; }
 
-.contained circle,#rect {fill: #c0c0c0; stroke: none; opacity: 1;}
+/* 6 */
+#interactive {
+    fill: #c0c0c0; 
+    stroke: #bd250d; 
+    stroke: 4px; }
 
-#interactive {fill: #c0c0c0; stroke: #bd250d; stoke: 4px;}
-#interactive:hover {fill: #bd250d; }
+/* 7 */
+#interactive:hover {
+    fill: #bd250d; }
 
-rect {opacity: 0;}
+/* 8 */
+rect {
+    opacity: 0; }
 
-path:last-child {stroke-width: 0;}
+/* 9 */
+path:last-child {
+    stroke-width: 0; }

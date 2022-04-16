@@ -22,6 +22,8 @@ th, td {
 tr:nth-of-type(even) {
     background-color: #eee; }
 
-tbody tr:hover{background-color: pink; }
+tbody tr:hover{
+    background-color: pink; }
 
-img {max-height: 100px; }
+img {
+    max-height: 100px; }
