@@ -26,7 +26,7 @@ path {
 #interactive {
     fill: #c0c0c0; 
     stroke: #bd250d; 
-    stroke: 4px; }
+    stroke-width: 4px; }
 
 /* 7 */
 #interactive:hover {
